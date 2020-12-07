@@ -1,0 +1,117 @@
+@import "../node_modules/tailwindcss/dist/base.css";
+@import "../node_modules/tailwindcss/dist/components.css";
+@import "../node_modules/tailwindcss/dist/utilities.css"; 
+@import "../node_modules/vue-material/dist/vue-material.css";
+@import "../node_modules/vue-material/dist/theme/default.css";
+@import url("https: //unpkg.com/vue-material/dist/theme/default.css");
+@import url("https: //fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons"); 
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+  }
+  
+  .md-app {
+    min-height: 350px;
+    border: 1px solid rgba(#000, 0.12);
+  }
+  
+  .md-drawer {
+    width: 230px;
+    max-width: calc(100vw - 125px);
+  }
+  
+  .md-dialog {
+    width: auto;
+    height: auto;
+    overflow-y: scroll;
+  }
+  
+  .md-field {
+    width: 200px;
+  }
+  
+  .md-table {
+    width: 100%;
+    table-layout: auto;
+  }
+  
+  .md-table-cell {
+    white-space: nowrap;
+    width: auto;
+  }
+  
+  .md-table-head-label {
+    color: #77aaff;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .md-app {
+    height: 100%;
+  }
+  .md-card .md-title {
+    font-size: 20px;
+  }
+  
+  .md-card-media img {
+    height: 177px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  .md-dialog-title {
+    display: flex;
+  }
+  
+  .md-title {
+    color: #448aff;
+  }
+  .md-dialog-title > span:first-of-type {
+    height: 5rem;
+    width: 5rem;
+    margin-right: 0.8rem;
+  }
+  .md-dialog-title > span:last-of-type {
+    margin-left: 1rem;
+    color: gray;
+    font-size: 12px;
+  }
+  .md-select-menu {
+    margin-left: 16px;
+    /* border: 1px solid gray; */
+  }
+  .md-dialog-container {
+    width: 100%;
+  }
+  .md-table-row > span {
+    margin-left: 23px;
+    color: #448aff;
+  }
+  .md-table-row > span > span {
+    color: gray;
+    font-weight: 500;
+  }
+
+.profile{
+display: flex;
+margin-left:auto;
+}
+.profile > span > a{
+  color: white!important
+  
+  }
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
