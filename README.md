@@ -1,4 +1,4 @@
-# opensky vue-vuex app with an asp.net api backend hosted differently
+# opensky vue-vuex app that authenticates against an asp.net api backend hosted differently on heroku
 
 To see a demo and further details go to https://opensky-chinedu.herokuapp.com/
 
