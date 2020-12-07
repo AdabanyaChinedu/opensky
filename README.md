@@ -3,4 +3,5 @@
 To see a demo and further details go to https://opensky-chinedu.herokuapp.com/
 
  username: demo
- passord: demo
+ 
+ password: demo
